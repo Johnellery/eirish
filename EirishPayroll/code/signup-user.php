@@ -59,6 +59,7 @@ require_once "controllerUserData.php";
                     <div class="form-group">
                     <label>Confirm Password</label>
                         <input class="form-control" type="password" name="cpassword" id="cpass" placeholder="Confirm your password" required>
+                        <small id="password-input-desc" class="form-text text-muted">Password must be 8 characters, with one uppercase.</small>
                     </div>
 
                     <div class="form-group">

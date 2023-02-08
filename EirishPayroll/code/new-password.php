@@ -48,11 +48,12 @@ if($email == false){
                     <div class="form-group">
                     <label>Confirm Password</label>
                         <input class="form-control" type="password" name="cpassword" placeholder="Confirm your password" required>
+                        <small id="password-input-desc" class="form-text text-muted">Password must be 8 characters, with one uppercase.</small>
                     </div>
-                    <div class="link forget-pass text-left">Go back ? <a href="login-user.php">Login</a></div>
                     <div class="form-group">
                         <input class="form-control button" type="submit" name="change-password" value="Change">
                     </div>
+                    <div class="link forget-pass text-left">Go back ? <a href="login-user.php">Login</a></div>
                 </form>
             </div>
         </div>
